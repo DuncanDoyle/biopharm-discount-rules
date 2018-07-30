@@ -1,5 +1,5 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="regulations_kiebase" default="true" eventProcessingMode="cloud" equalsBehavior="equality">
-    <ksession name="ksession" type="stateless" default="true" clockType="realtime"/>
+  <kbase name="regulations-kiebase" default="true" eventProcessingMode="cloud" equalsBehavior="equality">
+    <ksession name="regulations-stateless-session" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
