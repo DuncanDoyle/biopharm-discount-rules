@@ -69,7 +69,7 @@
       <parameters/>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$clinic: Clinc(); Address(city == &quot;@{city}&quot;) from $clinic </text>
+          <text>$clinic: Clinc(); Address(city == &quot;@{city}&quot;) from $clinic.address</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
