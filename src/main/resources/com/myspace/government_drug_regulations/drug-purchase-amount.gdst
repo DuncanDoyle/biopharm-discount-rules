@@ -61,7 +61,7 @@
       <header>Rule fired</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;Rule fired: @{ruleNo}&quot;):</text>
+          <text>System.out.println(&quot;Rule fired: @{ruleNo}&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
