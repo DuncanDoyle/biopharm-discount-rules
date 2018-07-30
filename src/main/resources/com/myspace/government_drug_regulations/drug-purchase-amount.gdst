@@ -110,6 +110,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.myspace.drug_orders.model.Drug</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.myspace.drug_orders.model.Clinic</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.myspace.government_drug_regulations</packageName>
