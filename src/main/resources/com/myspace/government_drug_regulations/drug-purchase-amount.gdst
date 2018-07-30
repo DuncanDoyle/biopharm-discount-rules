@@ -24,7 +24,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>161</width>
-          <header>Maximum amount</header>
+          <header>Maximum quantity</header>
           <constraintValueType>1</constraintValueType>
           <factField>quantity</factField>
           <fieldType>Integer</fieldType>
