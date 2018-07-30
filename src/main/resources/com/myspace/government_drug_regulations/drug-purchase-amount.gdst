@@ -19,13 +19,13 @@
       <parameters/>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$order: Order(); $drug: Drug(skuNo == &quot;@{skuNo}&quot;) from $order</text>
+          <text>$order: Order(); $drug: Drug(skuNo == &quot;@{skuNo}&quot;) from $order.drug</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>147</width>
+          <width>100</width>
           <header>Drug SKU No</header>
           <constraintValueType>1</constraintValueType>
           <fieldType>Object</fieldType>
