@@ -6,7 +6,7 @@
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>150</width>
+    <width>266</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols/>
@@ -143,6 +143,9 @@
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.myspace.drug_orders.model.Clinic</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.myspace.drug_orders.model.Address</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
