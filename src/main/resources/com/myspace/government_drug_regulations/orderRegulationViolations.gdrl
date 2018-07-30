@@ -1,2 +1,3 @@
 package com.myspace.government_drug_regulations;
 
+global com.myspace.government_drug_regulations.OrderRegulationViolations orderRegulationViolations;
