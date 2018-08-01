@@ -62,7 +62,7 @@
       <parameters/>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$order(drug.skuNo == &quot;@{skuNo}&quot;)</text>
+          <text>Drug(skuNo == &quot;@{skuNo}&quot;) from $order</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
