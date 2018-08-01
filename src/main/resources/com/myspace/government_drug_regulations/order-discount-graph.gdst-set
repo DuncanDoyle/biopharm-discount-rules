@@ -1,30 +1,38 @@
 <graph>
   <entries>
     <entry>
-      <pathHead class="org.uberfire.backend.vfs.PathFactory$PathImpl">
-        <uri>default://master@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
-        <fileName>order-discount-type.gdst</fileName>
-        <attributes/>
-        <hasVersionSupport>true</hasVersionSupport>
-      </pathHead>
-      <pathVersion class="org.uberfire.backend.vfs.PathFactory$PathImpl">
-        <uri>default://884a21ed1ce5d1d85afdec378f53ecb78755f5af@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
-        <fileName>order-discount-type.gdst</fileName>
-        <hasVersionSupport>true</hasVersionSupport>
-      </pathVersion>
-    </entry>
-    <entry>
-      <pathHead class="org.uberfire.backend.vfs.PathFactory$PathImpl">
-        <uri>default://master@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-percentage.gdst</uri>
-        <fileName>order-discount-percentage.gdst</fileName>
-        <attributes/>
-        <hasVersionSupport>true</hasVersionSupport>
+      <pathHead class="org.uberfire.backend.vfs.impl.ObservablePathImpl">
+        <path class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-percentage.gdst</uri>
+          <fileName>order-discount-percentage.gdst</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </path>
       </pathHead>
       <pathVersion class="org.uberfire.backend.vfs.PathFactory$PathImpl">
         <uri>default://a9d987d2135a2b7ac60e2ff03ab4218db092e901@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-percentage.gdst</uri>
         <fileName>order-discount-percentage.gdst</fileName>
-        <hasVersionSupport>true</hasVersionSupport>
+        <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
+      <x>-305.0</x>
+      <y>-737.0</y>
+    </entry>
+    <entry>
+      <pathHead class="org.uberfire.backend.vfs.impl.ObservablePathImpl">
+        <path class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
+          <fileName>order-discount-type.gdst</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </path>
+      </pathHead>
+      <pathVersion class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://884a21ed1ce5d1d85afdec378f53ecb78755f5af@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
+        <fileName>order-discount-type.gdst</fileName>
+        <hasVersionSupport>false</hasVersionSupport>
+      </pathVersion>
+      <x>-370.0</x>
+      <y>-1000.0</y>
     </entry>
   </entries>
 </graph>
