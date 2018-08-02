@@ -22,7 +22,7 @@ rule "Row 1 drug-purchase-quantity"
 		//$drug: Drug(skuNo == "1234") from $order.drug
 		//$clinic: Clinic(); Address(city == "Rotterdam") from $clinic.address
 	then
-	    System.out.println("Found order with quantity > 200")
+	    System.out.println("Found order with quantity > 200");
 		//orderRegulationViolations.getViolations().add("Quantity of this drug type above maximum in Rotterdam. Regulation X0001");
 end
 
