@@ -16,7 +16,7 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
-      <hideColumn>true</hideColumn>
+      <hideColumn>false</hideColumn>
       <width>100</width>
       <attribute>dialect</attribute>
       <reverseOrder>false</reverseOrder>
@@ -174,7 +174,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Rotterdam - 1234</valueString>
+        <valueString>Rotterdam - 123</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
