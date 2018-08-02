@@ -15,7 +15,7 @@ import com.myspace.drug_orders.model.Address;
 
 //from row number: 1
 //Rotterdam - 1234
-rule "Row 1 drug-purchase-quantity"
+rule "Test order"
 	dialect "java"
 	when
 		$order : Order( quantity > 200 )
