@@ -1,2 +1,12 @@
 package com.myspace.government_drug_regulations;
 
+import com.myspace.drug_orders.model.Order;
+
+rule "Found order"
+when
+    $order: Order()
+then
+    System.out.println("Found order.");
+end
+
+
