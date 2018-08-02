@@ -14,8 +14,8 @@
         <fileName>order-discount-type.gdst</fileName>
         <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
-      <x>-310.0</x>
-      <y>-967.0</y>
+      <x>-128.0</x>
+      <y>-926.0</y>
     </entry>
     <entry>
       <pathHead class="org.uberfire.backend.vfs.impl.ObservablePathImpl">
@@ -31,8 +31,8 @@
         <fileName>order-discount-percentage.gdst</fileName>
         <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
-      <x>-146.0</x>
-      <y>-636.0</y>
+      <x>-3.0</x>
+      <y>-629.0</y>
     </entry>
   </entries>
 </graph>
