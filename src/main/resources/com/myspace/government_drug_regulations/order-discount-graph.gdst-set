@@ -10,12 +10,12 @@
         </path>
       </pathHead>
       <pathVersion class="org.uberfire.backend.vfs.PathFactory$PathImpl">
-        <uri>default://884a21ed1ce5d1d85afdec378f53ecb78755f5af@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
+        <uri>default://0a347666130bdf12bdef8b9415cbd8aab16c0379@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
         <fileName>order-discount-type.gdst</fileName>
         <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
-      <x>-370.0</x>
-      <y>-1000.0</y>
+      <x>-310.0</x>
+      <y>-967.0</y>
     </entry>
     <entry>
       <pathHead class="org.uberfire.backend.vfs.impl.ObservablePathImpl">
@@ -31,8 +31,8 @@
         <fileName>order-discount-percentage.gdst</fileName>
         <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
-      <x>-305.0</x>
-      <y>-737.0</y>
+      <x>-146.0</x>
+      <y>-636.0</y>
     </entry>
   </entries>
 </graph>
