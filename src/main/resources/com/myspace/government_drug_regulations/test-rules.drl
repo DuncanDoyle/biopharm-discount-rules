@@ -9,4 +9,21 @@ then
     System.out.println("Found order.");
 end
 
+import com.myspace.drug_orders.model.Drug;
+import com.myspace.drug_orders.model.Clinic;
+import com.myspace.drug_orders.model.Address;
+
+//from row number: 1
+//Rotterdam - 1234
+rule "Row 1 drug-purchase-quantity"
+	dialect "java"
+	when
+		$order : Order( quantity > 200 )
+		//$drug: Drug(skuNo == "1234") from $order.drug
+		//$clinic: Clinic(); Address(city == "Rotterdam") from $clinic.address
+	then
+	    System.out.println("Found order with quantity > 200")
+		//orderRegulationViolations.getViolations().add("Quantity of this drug type above maximum in Rotterdam. Regulation X0001");
+end
+
 
