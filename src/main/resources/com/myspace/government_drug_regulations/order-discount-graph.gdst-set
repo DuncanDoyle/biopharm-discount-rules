@@ -10,7 +10,7 @@
         </path>
       </pathHead>
       <pathVersion class="org.uberfire.backend.vfs.PathFactory$PathImpl">
-        <uri>default://0a347666130bdf12bdef8b9415cbd8aab16c0379@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
+        <uri>default://807baf55e765235aea9ea6cbce28b813657298c1@MySpace/examples-government-drug-regulations/src/main/resources/com/myspace/government_drug_regulations/order-discount-type.gdst</uri>
         <fileName>order-discount-type.gdst</fileName>
         <hasVersionSupport>false</hasVersionSupport>
       </pathVersion>
