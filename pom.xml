@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.myspace</groupId>
-  <artifactId>government-drug-regulations</artifactId>
+  <groupId>com.biopharm</groupId>
+  <artifactId>biopharm-discount-rules</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>government-drug-regulations</name>
+  <name>biopharm-discount-rules</name>
   <description></description>
   <dependencies>
     <dependency>
