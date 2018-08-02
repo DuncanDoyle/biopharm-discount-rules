@@ -20,9 +20,10 @@ rule "Test order"
 	when
 		$order : Order( quantity > 200 )
 		$drug: Drug(skuNo == "1234") from $order.drug
-		//$clinic: Clinic(); Address(city == "Rotterdam") from $clinic.address
+		$clinic: Clinic(); 
+		Address(city == "Rotterdam") from $clinic.address
 	then
-	    System.out.println("Found order with quantity > 200 for Drug 1234");
+	    System.out.println("Found order with quantity > 200 for Drug 1234 and for a Clinic ...");
 		//orderRegulationViolations.getViolations().add("Quantity of this drug type above maximum in Rotterdam. Regulation X0001");
 end
 
