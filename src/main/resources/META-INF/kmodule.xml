@@ -1,5 +1,8 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="regulations-kiebase" default="true" eventProcessingMode="cloud" equalsBehavior="equality">
+  <kbase name="discount-kiebase" default="false" eventProcessingMode="cloud" equalsBehavior="equality" packages="com.myspace.biopharm-discount-rules">
+    <ksession name="discount-stateless-session" type="stateless" default="true" clockType="realtime"/>
+  </kbase>
+  <kbase name="regulations-kiebase" default="true" eventProcessingMode="cloud" equalsBehavior="equality" packages="com.myspace.government_drug_regulations">
     <ksession name="regulations-stateless-session" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
